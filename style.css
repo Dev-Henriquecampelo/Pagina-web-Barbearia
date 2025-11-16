@@ -61,6 +61,14 @@ header img {
     background: #d4d4d4; /*muda levemente a cor ao passar o mouse*/
     transform: translateY(-3px); /* faz um efeito levantando o botão para cima*/
 }
+
+.icon-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
 /*responsividade*/
 @media(max-width: 380px) {
     .menu {
