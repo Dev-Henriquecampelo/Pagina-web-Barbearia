@@ -34,7 +34,7 @@ header img {
 }
 
 .menu {
-    margin: 35px 0;
+    margin: 37px 0;
     display: grid;
     gap: 15px; /*define os espaços entre os botões*/
     grid-template-columns: repeat(2, 1fr); /*cria duas colunas iguais ficando alinhadas*/
