@@ -19,7 +19,7 @@ body {
     width: 95%; /*faz a caixa principal ocupar a largura total em telas pequenas*/
     max-width: 480px; /*faz com design não fique grande demais em telas grandes*/
     background: #302f2f; 
-    border-radius: 12px; /*deixa os cantos arrendondados*/ 
+    border-radius: 19px; /*deixa os cantos arrendondados*/ 
     padding: 25px; /*adiciona espaços para que o conteudo não fique colado na tela*/
     text-align: center;
     box-shadow: 0 4px 18px rgba(red, green, blue, alpha); /*efeito de sombra*/
