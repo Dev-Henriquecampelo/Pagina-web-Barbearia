@@ -89,4 +89,12 @@ footer p {
     padding: 25px;
     box-shadow: 0 4px 18px rgba(red, green, blue, alpha);
     width: 55%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.login-card form {
+    display: grid;
+    gap: 5px;
+    color: #fff;
 }
