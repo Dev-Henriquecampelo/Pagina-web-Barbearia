@@ -81,3 +81,7 @@ footer p {
     color: #666; /*cor leve para não competir com o conteúdo principal*/
     margin-top: 10px;
 }
+
+.login-card {
+    background-color:#302f2f;
+}
