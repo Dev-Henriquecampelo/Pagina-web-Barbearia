@@ -98,3 +98,13 @@ footer p {
     gap: 5px;
     color: #fff;
 }
+
+.btn-login {
+    background: #e6e6e6;
+    border: none;
+    border-bottom: #302f2f;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15px;
+
+}
