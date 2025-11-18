@@ -80,8 +80,13 @@ footer p {
     font-size: 0.85rem; /*tamanho menor para textos de direitos autorais*/
     color: #666; /*cor leve para não competir com o conteúdo principal*/
     margin-top: 10px;
+    text-align: center;
 }
 
 .login-card {
     background-color:#302f2f;
+    border-radius: 19px;
+    padding: 25px;
+    box-shadow: 0 4px 18px rgba(red, green, blue, alpha);
+    width: 55%;
 }
