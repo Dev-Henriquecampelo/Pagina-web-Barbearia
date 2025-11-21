@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 /*selecionando todos os elementos, removendo margens e definindo a fonte padrão da página*/
-=======
-/*selecionando todos os elementos, removendo margens e definindo a fonte padrão da página */
->>>>>>> origin/main
 * {
     margin: 0;
     padding: 0;
@@ -13,21 +9,12 @@
 
 body {
     background: #f2f2f2;
-<<<<<<< HEAD
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-=======
-    display: flex; /*deixar o container flexível */
-    justify-content: center; /*centraliza horizontalmente */
-    align-items: center; /*centraliza verticalmente */
-    min-height: 100vh; /*deixa o conteudo do site sempre ocupando o mínimo do tamanho da tela*/
-}
-
->>>>>>> origin/main
 .container {
     width: 95%; /*faz a caixa principal ocupar a largura total em telas pequenas*/
     max-width: 480px; /*faz com design não fique grande demais em telas grandes*/
@@ -49,11 +36,7 @@ header img {
 .menu {
     margin: 37px 0;
     display: grid;
-<<<<<<< HEAD
     gap: 19px; /*define os espaços entre os botões*/
-=======
-    gap: 15px; /*define os espaços entre os botões*/
->>>>>>> origin/main
     grid-template-columns: repeat(2, 1fr); /*cria duas colunas iguais ficando alinhadas*/
 }
 
@@ -95,17 +78,12 @@ header img {
 
 footer p {
     font-size: 0.85rem; /*tamanho menor para textos de direitos autorais*/
-<<<<<<< HEAD
     color: #666; /*cor leve para não competir com o conteúdo principal é bem melhor*/
-=======
-    color: #666; /*cor leve para não competir com o conteúdo principal*/
->>>>>>> origin/main
     margin-top: 10px;
     text-align: center;
 }
 
 .login-card {
-<<<<<<< HEAD
     background-color: #302f2f;
     border-radius: 20px;
     padding: 25px;
@@ -178,33 +156,6 @@ footer p {
 
 .caixa {
             
-=======
-    background-color:#302f2f;
-    border-radius: 19px;
-    padding: 25px;
-    box-shadow: 0 4px 18px rgba(red, green, blue, alpha);
-    width: 55%;
-    max-width: 480px;
-    margin: 0 auto;
-}
-
-.login-card form {
-    display: grid;
-    gap: 5px;
-    color: #fff;
-}
-
-.btn-login {
-    background: #e6e6e6;
-    border: none;
-    border-bottom: #302f2f;
-    border-radius: 5px;
-    padding: 5px;
-    margin-top: 15px;
-
-}
-.caixa {
->>>>>>> origin/main
             display: flex;
             width: 500px;          /* largura */
             padding: 20px;         /* espaço interno */
@@ -224,7 +175,6 @@ footer p {
 
 .caixa p {
     color:#d4d4d4
-<<<<<<< HEAD
 }
 
 
@@ -318,6 +268,3 @@ form-group {
 .submit-btn:hover {
     background: #535353;
 }
-=======
-}
->>>>>>> origin/main
