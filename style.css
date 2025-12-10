@@ -1,0 +1,275 @@
+
+/*selecionando todos os elementos, removendo margens e definindo a fonte padrão da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 95%; /*faz a caixa principal ocupar a largura total em telas pequenas*/
+    max-width: 480px; /*faz com design não fique grande demais em telas grandes*/
+    background: #302f2f; 
+    border-radius: 19px; /*deixa os cantos arrendondados*/ 
+    padding: 25px; /*adiciona espaços para que o conteudo não fique colado na tela*/
+    text-align: center;
+    box-shadow: 0 4px 18px rgba(red, green, blue, alpha); /*efeito de sombra*/
+}
+
+header img {
+    width: 100%;
+    max-width: 500px; /* tamanho máximo da logo */
+    height: auto; /* mantém proporção */
+    margin: 0 auto;
+    display: block;
+}
+
+.menu {
+    margin: 37px 0;
+    display: grid;
+    gap: 19px; /*define os espaços entre os botões*/
+    grid-template-columns: repeat(2, 1fr); /*cria duas colunas iguais ficando alinhadas*/
+}
+
+.btn {
+    background: #e6e6e6; /*deixar os botões com uma sombra branca em meio ao cinza escuro*/
+    border: none; /*deixa a borda arredondada*/
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 1rem;
+    cursor: pointer; /*muda o cursor ao passar o mouse*/
+    transition: 0.25s ease-in-out; /*deixa os efeitos suaves*/
+    color: #333;
+}
+
+.btn i {
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+    color: #555; /*ficam maiores e com cor cinza mais escuro*/
+}
+
+.btn:hover {
+    background: #d4d4d4; /*muda levemente a cor ao passar o mouse*/
+    transform: translateY(-3px); /* faz um efeito levantando o botão para cima*/
+}
+
+.icon-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+/*responsividade*/
+@media(max-width: 380px) {
+    .menu {
+        grid-template-columns: 1fr; /*quando a tela for muito pequena faz com que mude para duas colunas*/
+    }
+}
+
+footer p {
+    font-size: 0.85rem; /*tamanho menor para textos de direitos autorais*/
+    color: #666; /*cor leve para não competir com o conteúdo principal é bem melhor*/
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-card {
+    background-color: #302f2f;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+}
+
+
+.login-card form {
+    display: grid;
+    grid-template-columns: 1fr; /* uma coluna vertical */
+    gap: 15px;
+    justify-items: center; /* centraliza horizontalmente */
+    color: #fff;
+}
+.login-card label {
+    text-align: left;
+    width: 80%; /* aqui é opcional alinhar com os inputs se quiser */
+}
+
+/* Inputs maisss suaves */
+.login-card input {
+    width: 80%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Botões pequenos com bordas bem redondas */
+.btn-login,
+.btn-cadastro {
+    width: 140px;           /* largura do botãos */
+    height: 50px;           /* altura do botão */
+    border-radius: 12px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+
+/* Cores dos botões Entrar e Cadastre-se*/
+.btn-login {
+    background-color: #858686;
+    color: rgb(32, 32, 32);
+
+}
+
+.btn-login:hover {
+    background-color: #cacbcc;
+}
+
+.btn-cadastro {
+    background-color: #a2a3a3;
+     color: rgb(32, 32, 32);
+}
+
+.btn-cadastro:hover {
+    background-color: #2c2c2c;
+}
+
+.btn-h {
+    background-color: #858686;
+    color: rgb(32, 32, 32);
+
+}
+
+.caixa {
+            
+            display: flex;
+            width: 500px;          /* largura */
+            padding: 20px;         /* espaço interno */
+            border: 2px solid #333;/* borda */
+            border-radius: 10px;   /* cantos arredondados */
+            background-color: #3b3939; /* cor de fundo */
+            font-family: Arial;
+            margin-bottom: 20px;
+        
+            
+            
+        }
+
+.caixa h3 {
+    color: #fff;
+}
+
+.caixa p {
+    color:#d4d4d4
+}
+
+
+.btn {
+    background: rgb(248, 246, 246);
+    color: rgb(26, 25, 25);
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+
+
+/* aqui define o botao de agendamento */
+.form-group,
+.btn {
+    width: 100%;            
+    display: block;
+}
+
+
+.btn:hover {
+    background: #5c5b5b;
+}
+
+
+.submit-btn {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background: #131212;
+    padding: 25px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.2s;
+    
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #555;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #535353;
+}
