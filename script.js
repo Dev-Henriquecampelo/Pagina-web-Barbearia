@@ -73,4 +73,3 @@ BtnCadastro.addEventListener("click", async () => {
 
     alert("Cadastro criado com sucesso! Confirme pelo e-mail.");
 });
-
