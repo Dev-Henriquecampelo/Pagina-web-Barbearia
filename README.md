@@ -1,8 +1,4 @@
-# Pagina-Web-Barbearia
 
- henrique-dev
- HEAD
-# Pagina-Web-Barbearia
 
 
 # Pagina-Web-Barbearia
