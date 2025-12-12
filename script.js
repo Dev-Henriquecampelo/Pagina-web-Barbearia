@@ -1,5 +1,10 @@
 // Importar o supabase (NÃO FUNCIONA SEM type="module" no HTML)
-import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+ HEAD
+
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+
+ 6e59be8 (Alterações no agendamento e supabase)
 
 
 // Cofig do nosso Supabase
@@ -72,4 +77,12 @@ BtnCadastro.addEventListener("click", async () => {
     }
 
     alert("Cadastro criado com sucesso! Confirme pelo e-mail.");
+ henrique-dev
 });
+
+ HEAD
+
+ 6e59be8 (Alterações no agendamento e supabase)
+
+});
+main
