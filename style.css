@@ -132,24 +132,12 @@ footer p {
     transition: 0.3s;
 }
 
- henrique-dev
- HEAD
-=======
 
- 6e59be8 (Alterações no agendamento e supabase)
-
- main
 /* Cores dos botões Entrar e Cadastre-se*/
 .btn-login {
     background-color: #858686;
     color: rgb(32, 32, 32);
- henrique-dev
- HEAD
 
-
- 6e59be8 (Alterações no agendamento e supabase)
-
- main
 }
 
 .btn-login:hover {
@@ -164,19 +152,6 @@ footer p {
 .btn-cadastro:hover {
     background-color: #2c2c2c;
 }
- henrique-dev
- HEAD
-
-.btn-h {
-    background-color: #858686;
-    color: rgb(32, 32, 32);
- main
-
-}
-
-.caixa {
- henrique-dev
-            
 
 .btn-h {
     background-color: #858686;
@@ -186,10 +161,6 @@ footer p {
 
 .caixa {
 
- 6e59be8 (Alterações no agendamento e supabase)
-
-
- main
             display: flex;
             width: 500px;          /* largura */
             padding: 20px;         /* espaço interno */
@@ -198,21 +169,9 @@ footer p {
             background-color: #3b3939; /* cor de fundo */
             font-family: Arial;
             margin-bottom: 20px;
- henrique-dev
- HEAD
-        
-            
-            
 
 
 
-
- 6e59be8 (Alterações no agendamento e supabase)
-
-
-
-
- main
         }
 
 .caixa h3 {
@@ -230,15 +189,7 @@ footer p {
     padding: 16px;
     border-radius: 8px;
     cursor: pointer;
- henrique-dev
- HEAD
-    
 
-
- 6e59be8 (Alterações no agendamento e supabase)
-
-
- main
 }
 
 
@@ -298,15 +249,7 @@ form-group {
     border-radius: 6px;
     font-size: 15px;
     transition: 0.2s;
- henrique-dev
-HEAD
-    
-=======
 
- 6e59be8 (Alterações no agendamento e supabase)
-=======
-
- main
 }
 
 .form-group input:focus,
@@ -330,11 +273,6 @@ HEAD
 .submit-btn:hover {
     background: #535353;
 }
- henrique-dev
- HEAD
-=======
-=======
-main
 
 .btn-inicio {
     width: 140px;
@@ -362,11 +300,4 @@ main
     display: flex;
     justify-content: center;
     width: 100%;
- henrique-dev
 }
-
-
-6e59be8 (Alterações no agendamento e supabase)
-=======
-}
- main
